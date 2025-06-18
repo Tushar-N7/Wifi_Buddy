@@ -17,11 +17,11 @@ Adafruit_SSD1306 display(OLED_WIDTH, OLED_HEIGHT, &Wire, OLED_RESET);
 #define GREEN_PIN 26
 #define BLUE_PIN 27
 
-const char* ssid = "PANCHAJANYA";
-const char* password = "Tushtheju25";
+const char* ssid = "WIFI_NAME";
+const char* password = "WIFI_PASSWORD";
 
 // Receiver ESP32 IP
-const char* relayEspIP = "192.168.0.107";  // Change as needed
+const char* relayEspIP = "SECOND_ESP32_IP";  // Change as needed
 const int tempThreshold = 30;
 
 unsigned long lastColorChange = 0;
